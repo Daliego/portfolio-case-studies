@@ -13,6 +13,8 @@ cover:
 
 ##### Project Overview
 
+**Summary**: React Native mobile application for recording and managing employee work hours with accuracy and compliance with labor laws, optimizing human resources management.
+
 Ponto PI is a React Native app with development managed by my senior [Monuery Junior](https://www.linkedin.com/in/monnueryj/?originalSubdomain=br). The app's goal is to record and manage employee work hours with accuracy and compliance.
 
 Ponto PI is a tool used to record, control, and manage employee work hours in an organization. It can be implemented in different ways, including manual, mechanical, digital, or biometric systems, depending on the company's needs. The main function of this system is to ensure accuracy and compliance with labor laws, in addition to optimizing human resources management.
@@ -35,9 +37,17 @@ I joined the project to maintain the codebase and develop new modules. The app w
 
 ##### Technology Stack
 
-- **Framework**: React Native
-- **Platform**: iOS and Android
-- **Features**: Time tracking, biometric integration support, compliance management
+**Mobile Framework:**
+- React Native
+- JavaScript/TypeScript
+
+**Platform:**
+- iOS and Android
+
+**Features:**
+- Time tracking
+- Biometric integration support
+- Compliance management
 
 ##### Key Features
 
@@ -49,17 +59,20 @@ I joined the project to maintain the codebase and develop new modules. The app w
 - **Data Accuracy**: Precise tracking and reporting of work hours
 - **User-friendly Interface**: Intuitive experience for employees and administrators
 
+##### My Contributions
+
+- **Code Maintenance**: Maintained the existing codebase
+- **Module Development**: Developed new modules and features
+- **Code Quality**: Ensured code reliability and performance
+- **User Experience**: Improved user workflows and experience
+- **Issue Resolution**: Bug fixes and issue resolution
+- **Code Optimization**: Code refactoring and optimization
+
 ##### Project Links
 
 - **Google Play Store**: [https://play.google.com/store/apps/details?id=com.bigdata.pontopi&hl=pt_BR](https://play.google.com/store/apps/details?id=com.bigdata.pontopi&hl=pt_BR)
 
-##### My Contributions
+##### Project Team
 
-During my time working on this project, I focused on:
-- Maintaining the existing codebase
-- Developing new modules and features
-- Ensuring code reliability and performance
-- Improving user workflows and experience
-- Bug fixes and issue resolution
-- Code refactoring and optimization
-
+- **Project Manager**: [Monuery Junior](https://www.linkedin.com/in/monnueryj/?originalSubdomain=br) - Senior developer who managed the project development
+- **My Role**: Code maintenance and new module development
