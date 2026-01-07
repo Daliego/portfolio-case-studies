@@ -1,13 +1,20 @@
 ---
 title: "Typing / Letter-Scramble Animation (Vanilla JavaScript)"
 date: 2024-01-01
-tags: ["javascript", "vanilla-js", "animation", "dom-manipulation", "learning-project"]
+tags:
+  [
+    "javascript",
+    "vanilla-js",
+    "animation",
+    "dom-manipulation",
+    "learning-project",
+  ]
 description: "A small learning project exploring typing-like animations and letter transition effects using vanilla JavaScript, focusing on timing, sequencing, and DOM manipulation."
 summary: "Learning project to practice core JavaScript fundamentals by implementing typing animations and letter-scramble transitions using vanilla JavaScript, setTimeout, and DOM manipulation."
 cover:
-    image: "decryp_app_image.png"
-    alt: "Typing / Letter-Scramble Animation"
-    relative: true
+  image: "decryp_app_image.png"
+  alt: "Typing / Letter-Scramble Animation"
+  relative: true
 ---
 
 ##### Project Overview
@@ -20,11 +27,9 @@ This project was inspired by the [Decryption Simulation App](https://decryption-
 
 ##### Demo Video
 
-<div style="width: 100%;">
-<video src="https://github.com/Daliego/portfolio-case-studies/blob/main/static/1730137068160.mp4" controls muted playsinline style="width: 100%; border-radius: 8px;"></video>
-</div>
+{{<video src="/1730137068160.mp4" width="100%" style="border-radius: 8px;" >}}
 
-**Direct video link:** [1730137068160.mp4](https://daliego.github.io/1730137068160.mp4)
+**Direct video link:** [1730137068160.mp4](/1730137068160.mp4)
 
 ---
 
@@ -62,10 +67,10 @@ This project was inspired by the [Decryption Simulation App](https://decryption-
 ##### Project Context
 
 This was a learning-focused project to deepen my understanding of:
+
 - JavaScript timing and sequencing
 - DOM manipulation techniques
 - Animation principles and trade-offs
 - Recreating effects from scratch without relying on libraries
 
 The project demonstrates practical application of core JavaScript concepts in creating engaging visual effects.
-

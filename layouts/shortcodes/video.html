@@ -1,22 +1,30 @@
-{{- $src := .Get "src" -}}
+{{- $src   := .Get "src"   | default "" -}}
 {{- $width := .Get "width" | default "100%" -}}
 {{- $style := .Get "style" | default "" -}}
 {{- $class := .Get "class" | default "" -}}
 
-{{- if not (hasPrefix $src "http") -}}
-  {{- if hasPrefix $src "/" -}}
-    {{- $src = printf "%s%s" (strings.TrimSuffix "/" site.BaseURL) $src -}}
+{{- /* Build full URL using BaseURL */ -}}
+{{- $base := .Site.BaseURL | strings.TrimSuffix "/" -}}
+
+{{- if and $src (not (strings.HasPrefix $src "http://")) (not (strings.HasPrefix $src "https://")) -}}
+  {{- if strings.HasPrefix $src "/" -}}
+    {{- $src = printf "%s%s" $base $src -}}
   {{- else -}}
-    {{- $src = printf "%s/%s" (strings.TrimSuffix "/" site.BaseURL) $src -}}
+    {{- $src = printf "%s/%s" $base $src -}}
   {{- end -}}
 {{- end -}}
 
-<video 
-  src="{{ $src }}" 
-  controls 
-  muted 
-  playsinline
-  {{- if $class }} class="{{ $class }}"{{ end -}}
-  style="width: {{ $width }};{{ if $style }} {{ $style }}{{ end }}"
-></video>
+{{- $videoStyle := printf "width: %s" $width -}}
+{{- with $style -}}
+  {{- $videoStyle = printf "%s; %s" $videoStyle . -}}
+{{- end -}}
 
+<div style="width: 100%; max-width: 100%; overflow: hidden;">
+  <video
+    src="{{ $src }}"
+    controls
+    muted
+    playsinline{{ with $class }} class="{{ . }}"{{ end }}
+    style="max-width: 100%; height: auto; {{ $videoStyle }}"
+  ></video>
+</div>
