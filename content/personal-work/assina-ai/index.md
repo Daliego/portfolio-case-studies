@@ -123,3 +123,5 @@ This project was developed at IFPI - Teresina Central campus to address the esse
 
 **Note**: The source code for this project is not publicly available. This project was developed as part of academic work at IFPI - Teresina Central.
 
+**Related Project**: I later applied animation techniques learned from my [Typing / Letter-Scramble Animation](/personal-work/typing-letter-scramble-animation/) project to enhance this application.
+
