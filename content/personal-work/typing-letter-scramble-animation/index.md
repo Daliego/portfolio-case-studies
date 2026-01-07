@@ -5,22 +5,22 @@ tags: ["javascript", "vanilla-js", "animation", "dom-manipulation", "learning-pr
 description: "A small learning project exploring typing-like animations and letter transition effects using vanilla JavaScript, focusing on timing, sequencing, and DOM manipulation."
 summary: "Learning project to practice core JavaScript fundamentals by implementing typing animations and letter-scramble transitions using vanilla JavaScript, setTimeout, and DOM manipulation."
 cover:
-    image: "application_logo.png"
+    image: "decryp_app_image.png"
     alt: "Typing / Letter-Scramble Animation"
     relative: true
 ---
 
 ##### Project Overview
 
-A small learning project I built to explore how to create a **typing-like animation** and animate the **transition of letters** on a page using **vanilla JavaScript**. The main goal was to practice core JS fundamentals—especially **timing and sequencing**—by implementing different animation behaviors with `setTimeout` (and iterative updates to the DOM).
+A small learning project I built to explore how to create a **typing-like animation** and animate the **transition of letters** on a page using **vanilla JavaScript**. The main goal was to practice core JS fundamentals, especially **timing and sequencing**, by implementing different animation behaviors with `setTimeout` (and iterative updates to the DOM).
 
-This project was inspired by a CodePen snippet that simulates a "password decryption" effect. After watching the snippet, I challenged myself to recreate the animation using my own knowledge, then later applied what I learned to an older project I had built with **Romero Mendonça** and **Werton Silva** - the [AssinaAí (Checkin Now!)](/personal-work/assina-ai/) laboratory attendance system.
+This project was inspired by the [Decryption Simulation App](https://decryption-simulation-app.vercel.app/), which simulates a "password decryption" effect done by me. After finishing this application, I challenged myself to recreate the animation using my own knowledge, then later applied what I learned to an older project I had built with **Romero Mendonça** and **Werton Silva** - the [AssinaAí (Checkin Now!)](/personal-work/assina-ai/) laboratory attendance system.
 
 ---
 
 ##### Demo Video
 
-<video src="/1730137068160.mp4" controls muted playsinline style="max-width: 100%; border-radius: 8px;"></video>
+<video src="/1730137068160.mp4" controls muted playsinline style="width: 100%; border-radius: 8px;"></video>
 
 **Direct video link:** [/1730137068160.mp4](/1730137068160.mp4)
 
