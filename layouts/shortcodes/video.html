@@ -1,0 +1,22 @@
+{{- $src := .Get "src" -}}
+{{- $width := .Get "width" | default "100%" -}}
+{{- $style := .Get "style" | default "" -}}
+{{- $class := .Get "class" | default "" -}}
+
+{{- if not (hasPrefix $src "http") -}}
+  {{- if hasPrefix $src "/" -}}
+    {{- $src = printf "%s%s" (strings.TrimSuffix "/" site.BaseURL) $src -}}
+  {{- else -}}
+    {{- $src = printf "%s/%s" (strings.TrimSuffix "/" site.BaseURL) $src -}}
+  {{- end -}}
+{{- end -}}
+
+<video 
+  src="{{ $src }}" 
+  controls 
+  muted 
+  playsinline
+  {{- if $class }} class="{{ $class }}"{{ end -}}
+  style="width: {{ $width }};{{ if $style }} {{ $style }}{{ end }}"
+></video>
+

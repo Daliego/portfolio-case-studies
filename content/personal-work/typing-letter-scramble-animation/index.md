@@ -20,7 +20,9 @@ This project was inspired by the [Decryption Simulation App](https://decryption-
 
 ##### Demo Video
 
-<video src="https://daliego.github.io/1730137068160.mp4" controls muted playsinline style="width: 100%; border-radius: 8px;"></video>
+<div style="width: 100%;">
+<video src="https://daliego.github.io/static/1730137068160.mp4" controls muted playsinline style="width: 100%; border-radius: 8px;"></video>
+</div>
 
 **Direct video link:** [1730137068160.mp4](https://daliego.github.io/1730137068160.mp4)
 
