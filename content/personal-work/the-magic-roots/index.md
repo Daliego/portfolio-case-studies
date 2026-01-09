@@ -16,7 +16,7 @@ tags:
 description: "A 2D local multiplayer platformer built with Godot Engine 3, created during a game jam. Two players must cooperate to solve puzzles, avoid traps, and collect magical roots before time runs out."
 summary: "2D local co-op platformer built with Godot Engine 3 during a game jam. Players work together to solve puzzles, collect roots, and reach portals under time pressure."
 cover:
-  image: "/theMagicRoots/magic_roots_logo.jpeg"
+  image: "magic_roots_logo.jpeg"
   alt: "The Magic Roots - Game Logo"
   relative: false
 ---
