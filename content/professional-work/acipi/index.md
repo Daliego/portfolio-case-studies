@@ -89,15 +89,17 @@ During this project, I was responsible for:
 - **Docker Configuration**: Set up containerization for team collaboration
 - **Team Collaboration**: Worked with multidisciplinary team to ensure quality
 
-##### Project Team
+##### Credits
 
-This project was developed in collaboration with:
+This project was developed by:
 
-- **Kauê Cavalcante** - Developer
-- **Halysson Pimentel** - Developer
-- **Francisco Marcelino** - Advisor (present in every phase of the project, providing guidance)
+- **Diego de Sousa Araújo** - Developer - [LinkedIn](https://www.linkedin.com/in/daliego/)
+- **Halysson Pimentel** - Developer - [LinkedIn](https://www.linkedin.com/in/halysonitallo/)
+- **Paulo Roberto** - Developer - [LinkedIn](https://www.linkedin.com/in/paulo-ra-leal/)
+- **Kauê Cavalcante** - Manager - [LinkedIn](https://www.linkedin.com/in/kaue-cavalcante/?originalSubdomain=br)
 
-I thank all of them for their help, understanding, and for the opportunity to be part of this project.
+**Orientador:**
+- **Francisco Marcelino** - Advisor - [IFPI Portfolio](https://integra.ifpi.edu.br/portfolio/pessoas/francisco-marcelino-almeida-de-araujo)
 
 ##### Skills & Competencies
 
@@ -111,6 +113,11 @@ I thank all of them for their help, understanding, and for the opportunity to be
 - Prisma
 - React.js
 - SQL
+
+##### Project Links
+
+- **Built News Portal**: [Academia de Ciências do Piauí (ACIPI)](https://www.acipiaui.org.br/)
+- **Institution**: Associated with Federal Institute of Education, Science and Technology of Piauí ([IFPI](https://www.ifpi.edu.br/))
 
 ##### Project Context
 
