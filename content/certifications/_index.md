@@ -45,7 +45,7 @@ Each entry includes a placeholder for a public credential/participation link.
 
 - **Issuer:** Cisco (CCNA)
 - **Summary:** Network infrastructure fundamentals (routing/switching foundations).
-- **Credential / Verification:** [CCNA1 Credential](https://www.credly.com/badges/8152101c-2a4e-410b-9fa2-1b2303f6baf0)
+- **Credential / Verification:** [CCNA1 Credential](https://drive.google.com/file/d/1Fk80XvEYru8dgdUS4dvZa0DOoUnxcS4J/view?usp=drive_link)
 
 ---
 
@@ -86,10 +86,10 @@ Each entry includes a placeholder for a public credential/participation link.
 
 ---
 
-### Embedded Systems (BitDogLab)
+### Embedded Systems Professiona
 
 - **Summary (learning & delivery):**
-  - Learned the basics of **firmware**
-  - Developed an application for the **BitDogLab board**
-  - Learned the fundamentals of embedded systems
+  - Learned about **firmware** programming
+  - Developed an application with the **BitDogLab board**
+  - Real usecases of embedded systems
 - **Participation / Certificate:** [Embedded Systems](https://drive.google.com/file/d/1swiLf7y9ZaLRuj5k_KSxpX-yb83JejWN/view)
