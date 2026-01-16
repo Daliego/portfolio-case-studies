@@ -54,6 +54,9 @@ This project was inspired by the [Decryption Simulation App](https://decryption-
 - **Original CodePen reference:**  
   [CodePen - Original Reference](https://lnkd.in/dipw4_Mb)
 
+- **Repository:**
+[Github](https://github.com/Daliego/decryption_simulation_app)  
+
 ---
 
 ##### Technology Stack
