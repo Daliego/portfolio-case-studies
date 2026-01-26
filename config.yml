@@ -12,6 +12,9 @@ taxonomies:
 
 menu:
   main:
+    - name: Blog
+      url: blog/
+      weight: 1
     - name: Publications
       url: publications/
       weight: 2
@@ -41,7 +44,7 @@ params:
   ShowBreadCrumbs: false
   ShowCodeCopyButtons: true
   ShowAllPagesInArchive: false
-  MainSections: ["books", "courses", "publications", "data"]
+  MainSections: ["blog", "books", "courses", "publications", "data"]
   ShowToc: false
   disableScrollToTop: true
   TocOpen: true
@@ -57,6 +60,8 @@ params:
     imageWidth: 160
     imageHeight: 160
     buttons:
+      - name: Blog
+        url: blog/
       - name: Professional Projects
         url: professional-work/
       - name: Personal Work / Study Cases
