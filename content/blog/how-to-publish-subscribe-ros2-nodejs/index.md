@@ -408,3 +408,14 @@ Eu espero trazer no futuro alguma outra aplicação utilizando a mesma abordagem
 ---
 
 > Se este tutorial foi útil para você, considere dar uma estrela no repositório e seguir para mais conteúdo sobre ROS 2 e Node.js!
+> Also, you can actually [buy me a coffee](https://ko-fi.com/diesgoaraujo)!
+
+<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+<script>
+  kofiWidgetOverlay.draw('diesgoaraujo', {
+    'type': 'floating-chat',
+    'floating-chat.donateButton.text': 'Support me',
+    'floating-chat.donateButton.background-color': '#fcbf47',
+    'floating-chat.donateButton.text-color': '#323842'
+  });
+</script>
